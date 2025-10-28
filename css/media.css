@@ -2,9 +2,14 @@
     .nav-list { 
         display: none;
     }
-    .nav-button {
+    .nav-button{
         display: block;
-    }
+    z-index: 13;
+    top: 46px;
+    right: 30px;
+ 
+}
+
     .nav.open .nav-list {
         z-index: 12;
 position: fixed;
@@ -14,18 +19,12 @@ left: 0;
 right: 0;
 background-color: white;
 display: flex;
+
 flex-direction: column;
 padding: 46px 30px;
 font-size: 50px;
 font-weight: 400;
 row-gap: 40px;
-}
-.nav-button{
-    position: fixed;
-    z-index: 13;
-    top: 46px;
-    right: 30px;
- 
 }
 
 
